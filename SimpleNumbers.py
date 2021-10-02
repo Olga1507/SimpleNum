@@ -26,7 +26,7 @@ def is_simple_number(n):
 
 # print(is_simple_number(5))
 
-# сохранили флаги проверки на простоту во массиве простых чисел
+# сохранили флаги проверки на простоту в массив простых чисел
 for i in range(len(OddIntNum)):
     SimpleNum.append(is_simple_number(OddIntNum[i]))
     if SimpleNum[i]:
